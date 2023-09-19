@@ -1,7 +1,7 @@
 const colorSpan = document.querySelector(".color");
 const body = document.body;
 const changeColor = document.querySelector(".change-color");
-console.log(changeColor)
+
 
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215)

@@ -23,14 +23,15 @@ button {
   cursor: pointer;
 }
 
-li {
-  list-style: none;
-}
 
 /** TASK 3*/
 .gallery {
   display: flex;
   column-gap: 16px;
+}
+
+.gallery li {
+  list-style: none;
 }
 
 .gallery li img {
